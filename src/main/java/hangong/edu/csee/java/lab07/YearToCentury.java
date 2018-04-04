@@ -1,18 +1,18 @@
 package hangong.edu.csee.java.lab07;
-import java.util.Scanner;
+import java.util.Scanner; //import the Scanner 
 
-public class YearToCentury {
+public class YearToCentury { //declare class name
 
-	public static void main(String[] args) {
+	public static void main(String[] args) {  //declare main fuction
 		// TODO Auto-generated method stub
-		Scanner scan=new Scanner(System.in);
+		Scanner scan=new Scanner(System.in);	//declare reference variable
 		
 
-		System.out.println("Input year : \n");
-		int year=scan.nextInt();
+		System.out.println("Input year : \n");  //print String
+		int year=scan.nextInt();		//input the value of year
 		
-		Convertor result=new Convertor(year);
-		result.yearConvertor(year);
+		Convertor result=new Convertor(year);  //declare reference variable
+		result.yearConvertor(year);  // input the value into constructor
 		
 	}
 
@@ -20,18 +20,18 @@ public class YearToCentury {
 
 
 
-class Convertor {
-	int century=0;
+class Convertor { 		//declare default class name
+	int century=0;		//initialize the variable
 	
-	public Convertor(int num) {
-		century=num;
+	public Convertor(int num) {		//decide name of constructor
+		century=num;		//substitute num into century
 		}
 	
-	public void yearConvertor(int year) {
+	public void yearConvertor(int year) {		//yearConvertor method
 		
-		century =(year/100)+1;
+		century =(year/100)+1;			//calculate the century
 		
-		System.out.println(year+" is "+century+"th century");
+		System.out.println(year+" is "+century+"th century"); 	//print the result on the console 
 	}
 	
 
