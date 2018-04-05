@@ -43,17 +43,17 @@ class Chicken{					//declare class Chicken
 
 	
 
-	public String get_name()		//	getName to reference
+	public String get_name()		//	getName to establish
 	{
 		return this.name;	//return the String
 	}
 
-	public double get_price()		// getPrice to reference
+	public double get_price()		// getPrice to establish
 	{
 		return this.price;		//return the price
 	}
 
-	public int get_stars()			//	getStars to reference
+	public int get_stars()			//	getStars to establish
 	{
 		return this.stars;  	////return the stars
 	}
