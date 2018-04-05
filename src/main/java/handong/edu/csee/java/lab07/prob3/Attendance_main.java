@@ -4,12 +4,10 @@ import java.util.Random;  //import Random java util
 
 /**
  * @author GiChul
- * @param main
- * @param s_1
- * @param s_2
- * @param s_3
- * @param s_4
- * 
+ * This class is public class of this .java 
+ * first we make the constructor and input the data
+ * by using randomGenerator decide the absence numbers
+ * and throwing the if statement print the result on console
  */
 public class Attendance_main {  //name of public class
 

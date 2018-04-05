@@ -4,7 +4,9 @@ import java.util.Scanner; //import the Scanner
  * 
  * @author GiChul
  * @version 1
- * @param main
+ * This class public class of this .java 
+ * first we receive the data from keyboard 
+ * and throwing Converter compute the result
  */
 public class YearToCentury { //declare class name
 
@@ -16,27 +18,29 @@ public class YearToCentury { //declare class name
 		System.out.println("Input year : \n");  //print String
 		int year=scan.nextInt();		//input the value of year
 		
-		Convertor result=new Convertor(year);  //declare reference variable
-		result.yearConvertor(year);  // input the value into constructor
+		Converter result=new Converter(year);  //declare reference variable
+		result.yearConverter(year);  // input the value into constructor
 		
 	}
 
 }
 
 /**
- * @param Convertor
- * @param yearConvertor
- * @return void
+ * This class is default class of this .java
+ * first we initialize the data century to 0
+ * we receive the number from main function
+ * the yearConverter compute the result
+ * after print the result on the console
  */
 
-class Convertor { 		//declare default class name
+class Converter { 		//declare default class name
 	int century=0;		//initialize the variable
 	
-	public Convertor(int num) {		//decide name of constructor
+	public Converter(int num) {		//decide name of constructor
 		century=num;		//substitute num into century
 		}
 	
-	public void yearConvertor(int year) {		//yearConvertor method
+	public void yearConverter(int year) {		//yearConverter method
 		
 		century =(year/100)+1;			//calculate the century
 		

@@ -1,19 +1,9 @@
 package handong.edu.csee.java.lab07.prob3;	//package name
 		
 /**
- * @param Attendance
- * @param get_name
- * @param get_year
- * @param get_id
- * @param get_missed
- * @param set_name
- * @param set_year
- * @param set_id
- * @param set_missed
- * @return name
- * @return year
- * @return student_id
- * @return missed
+ * This class is default class of this .java 
+ * first we make the constructor and initialize the data
+ * by receiving the data and input the data to instance
  */
 
 public class Attendance {

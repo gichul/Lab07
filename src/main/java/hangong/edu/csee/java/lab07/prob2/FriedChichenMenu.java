@@ -1,11 +1,9 @@
 package hangong.edu.csee.java.lab07.prob2;
 /**
  * @author GiChul
- * @param main
- * @param menu1
- * @param menu2
- * @param menu3
- * 
+ * This class public class of this .java 
+ * first we make the constructor and input the data
+ * and throwing Chicken class print the result to console
  */
 public class FriedChichenMenu {
 
@@ -31,16 +29,9 @@ public class FriedChichenMenu {
 }
 
 /**
- * @param Chicken
- * @param get_name
- * @param get_price
- * @param get_stars
- * @param set_name
- * @param set_price
- * @param set_stars
- * @return name
- * @return price
- * @return stars
+ * This class default class of this .java 
+ * first we initialize the data and receive data from main function
+ * by input data return the result
  */
 
 class Chicken{					//declare class Chicken
