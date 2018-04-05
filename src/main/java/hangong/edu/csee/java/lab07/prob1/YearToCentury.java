@@ -1,6 +1,11 @@
 package hangong.edu.csee.java.lab07.prob1;
 import java.util.Scanner; //import the Scanner 
-
+/**
+ * 
+ * @author GiChul
+ * @version 1
+ * @param main
+ */
 public class YearToCentury { //declare class name
 
 	public static void main(String[] args) {  //declare main fuction
@@ -18,7 +23,11 @@ public class YearToCentury { //declare class name
 
 }
 
-
+/**
+ * @param Convertor
+ * @param yearConvertor
+ * @return void
+ */
 
 class Convertor { 		//declare default class name
 	int century=0;		//initialize the variable

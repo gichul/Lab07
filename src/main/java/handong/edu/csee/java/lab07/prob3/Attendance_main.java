@@ -2,7 +2,15 @@ package handong.edu.csee.java.lab07.prob3; //package name
 
 import java.util.Random;  //import Random java util
 
-
+/**
+ * @author GiChul
+ * @param main
+ * @param s_1
+ * @param s_2
+ * @param s_3
+ * @param s_4
+ * 
+ */
 public class Attendance_main {  //name of public class
 
 
