@@ -1,4 +1,4 @@
-package hangong.edu.csee.java.lab07;
+package hangong.edu.csee.java.lab07.prob1;
 import java.util.Scanner; //import the Scanner 
 
 public class YearToCentury { //declare class name
